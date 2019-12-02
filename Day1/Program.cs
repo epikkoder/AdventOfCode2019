@@ -8,7 +8,8 @@ namespace Day1
         static void Main(string[] args)
         {
             int fuelSum = 0;
-            string[] lines = File.ReadAllLines(@"C:\Users\Kenyon\Desktop\input.txt");
+
+            string[] lines = File.ReadAllLines(@"../../../input.txt");
 
             foreach (string line in lines)
             {
